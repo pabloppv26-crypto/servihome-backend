@@ -13,5 +13,8 @@ module.exports = ({ env }) => ({
         delete: {},
       },
     },
+    security: {
+      strictSizeLimit: false,
+    },
   },
 });
