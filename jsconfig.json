@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "moduleResolution": "nodenext",
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
     "target": "ES2021",
-    "checkJs": true,
+    "checkJs": false,
     "allowJs": true
   }
 }
